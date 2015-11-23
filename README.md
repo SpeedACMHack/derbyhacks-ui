@@ -1,4 +1,4 @@
-# Kent Hack Enough *Attendees*
+# DerbyHacks *Attendees*
 
 This is what the attendees see when they go to the KHE website.
 
