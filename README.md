@@ -1,6 +1,6 @@
 # Kent Hack Enough *Attendees*
 
-This is what the attendees see when they go to the KHE website.
+This is what the attendees see when they go to the DerbyHacks website.
 
 ## Setup
 
