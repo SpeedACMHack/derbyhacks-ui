@@ -3,13 +3,13 @@ body {
 }
 
 *, h4, h5, h6, p {
-  font-family: 'Droid Serif', sans-serif;
-  color: black;
+  font-family: 'Proxima Nova','Montserrat', sans-serif;
+  color: white;
 }
 
 h1, h2, h3 {
-  font-family: 'Oswald', sans-serif;
-  color: black;
+  font-family: 'Proxima Nova','Montserrat', sans-serif;
+  color: white ;
 }
 
 h1 a {
@@ -161,9 +161,17 @@ fieldset legend {
 }
 
 #splash {
-  padding-top: 3rem;
-  padding-bottom: 4rem;
   margin-top: -32px;
+  background-image:url(../../img/grawemeyer.jpg);
+  background-size:cover;
+  background-position: center center;
+  background-repeat:no-repeat;
+}
+
+#splash-fore {
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
 }
 
 nav a {
@@ -451,7 +459,6 @@ footer#site-footer {
 }
 
 footer#site-footer * {
-  float: left;
   height: 4rem;
   position: relative;
   top: 50%;
@@ -466,12 +473,12 @@ footer#site-footer #hacksu-logo {
 footer#site-footer p {
   font-family: 'Oswald';
   line-height: 4rem;
+  color: black;
 }
 
 footer#site-footer .container {
-  width: 340px;
-  margin: auto;
-  float: none;
+  width:  50%;
+  margin: 0 auto;
 }
 
 @media (min-width: 0px) and (max-width: 600px) {
@@ -548,8 +555,13 @@ footer#site-footer .container {
   height: 4.5rem;
   margin-bottom: 2rem;
 }
+#apply_login {
+  margin-bottom:2rem;
+}
 
 .light-page header h1 {
   color: black;
   font-size: 1.5rem;
 }
+
+
