@@ -1,5 +1,5 @@
 <header>
-  <h1>Apply to Kent Hack Enough</h1>
+  <h1>Apply to DerbyHacks</h1>
 </header>
 <div class="page-indicator">
   <i ui-sref="apply.page1" class="fa fa-circle-o"></i>
@@ -12,8 +12,7 @@
   <div class="agreements">
     <input id="cb-conduct" type="checkbox" ng-model="application.conduct">
     <label for="cb-conduct">I agree to the <a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">MLH Code of Conduct</a></label>
-    <input id="cb-demographic" type="checkbox" ng-model="application.demographic">
-    <label for="cb-demographic">I agree to allow my demographic information to be used anonymously to improve hackathons</label>
+    <label for="cb-demographic">We participate in Major League Hacking (MLH) as a MLH Member Event. You authorize us to share certain application/registration information for event administration, ranking, MLH administration, and occasional messages about hackathons in line with the MLH Privacy Policy.</label>
   </div>
 </article>
 <footer>
@@ -27,5 +26,5 @@
     <a class="white large" ui-sref="apply.page3">Agreements</a> <span class="large">|</span>
     <a class="white large" ui-sref="apply.page4">Summary</a>
   </div>
-  <button ui-sref="apply.page4"><span><i class="fa fa-arrow-right"></i></span> Next</button>
+  <button id="next" ui-sref="apply.page4"><span><i class="fa fa-arrow-right"></i></span> Next</button>
 </footer>

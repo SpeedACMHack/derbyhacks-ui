@@ -1,15 +1,14 @@
 <div id="splash">
-<div id="splash-fore">
 
   <div class="row" id="logo">
     <div class="small-12 columns align-center">
-      <img src="/img/Dlogo.svg" alt="Derby Hack">
+     <img src="/img/text.png" alt="Derby Hack">
     </div>
   </div>
 
   <div class="row" id="date">
     <div class="small-12 columns align-center">
-      <h2>April 9 - 10, 2016 <br>University Of Louisville</h2>
+      <h2>April 9-10, 2016 | University Of Louisville</h2>
     </div>
   </div>
 
@@ -18,8 +17,8 @@
             <div class="white small" ng-repeat="e in home.errors">{{e}}</div>
       <div ng-if="!home.user" id = "apply_login" >
         <br>
-         <a class="white" ng-click="home.loginRegister = true; home.showLogin = false">Apply</a>  
-         <a class="white" ng-click="home.loginRegister = true; home.showLogin = true">Login</a> 
+         <button class="white" ng-click="home.loginRegister = true; home.showLogin = false">Apply</button>  
+         <button class="white" ng-click="home.loginRegister = true; home.showLogin = true">Login</button> 
       </div>
       <button ng-if="home.user" class="apply" ui-sref="apply.page1">Your Application</button>
       <div ng-if="home.user && home.application.status == 'approved'" class="align-center" ng-click="home.apply.toggleGoing()">
@@ -95,7 +94,6 @@
     </div>
   </div>
 </div>
-</div>
 
 <div class="dark-section">
   <div class="row">
@@ -108,16 +106,14 @@
       <div class="row">
         <div class="small-12 columns">
           <h3>ABOUT</h3>
-          <p>
-            Kent Hack Enough brings hackers from all over the nation together to learn something new, party hard, and create something awesome. With more than 250 highly motivated, creative, and talented participants, Kent Hack Enough is a weekend-long event where students from all areas of interest come together to make something awesome, like an app, website or hardware hack. The entire event is free for students, including food, energy drinks, and swag. In between all the coding, designing, and water pong, our sponsors are available as mentors to provide help and expertise throughout the hacking process.
+          <p>DerbyHacks, a Hackathon at the Derby city! University of Louisville’s very first big hackathon. Come express your creativity in this 24 hour event. Meet awesome people. We invite students from across the country, on April 9-10, 2016, to the University of Louisville to encourage collaboration and creative problem solving.
           </p>
         </div>
       </div>
       <div class="row">
         <div class="small-12 large-6 columns">
           <h3>ATTENDEES</h3>
-          <p>
-            Kent Hack Enough is free and open to students of all majors. If you are a high school student or a minor, please contact us for more information about how to attend. We’ll send you a waiver for your parents to sign and return before the event, and then you’ll be allowed in. If you’re traveling to Kent, please contact us for more information about travel reimbursement.
+          <p>We welcome everyone at DerbyHacks no matter your skill levels. We will have mentors walking around to help participants that are having trouble and plenty of workshops to help you get started! This event is free and open to students of all majors. Come meet new friends, learn, and create awesome things.
           </p>
         </div>
         <div class="small-12 large-6 columns">
@@ -145,15 +141,16 @@
           <p>
             Interested in sponsoring DerbyHacks? Take a look at our
             <a target="_blank" href="/SponsorshipPacket.pdf">sponsorship packet</a>
-            and <a href="mailto:@khe.io">contact us</a> (@derbyhacks.io).
+            and <a href="mailto:team@derbyhacks.io">contact us</a> (team@derbyhacks.io).
           </p>
         </div>
       </div>
-     <!--- <div class="row sponsor-row">
+      <div class="row sponsor-row">
         <div class="small-4 columns text-center">
-          <a href="http://knightfoundation.org/`"> <img src="/img/sponsors/knight-foundation.png" /> </a>
+          <a href="https://www.humana.com/"> <img src="/img/sponsors/Humana_logo.png" /> </a>
         </div>
-        <div class="small-4 columns text-center">
+     </div>
+       <!-- <div class="small-4 columns text-center">
           <a href="https://www.progressive.com/"> <img src="/img/sponsors/progressive.png" /> </a>
         </div>
         <div class="small-4 columns text-center">
@@ -220,10 +217,16 @@
         </div>
       </div>
         <div class="row sponsor-row">
-       <!--- <div class="small-4 columns text-center">
-          <a href="http://www.tech-style-lab.org/"> <img src="/img/sponsors/tsl.png" style="width:50%;" /> </a>
+	 <div class="small-4 columns text-center">
+          <a href="http://www.louisville.edu/"> <img src="/img/sponsors/UofL_logo.png" style="width:50%;" /> </a>
         </div>
         <div class="small-4 columns text-center">
+          <a href="http://www.mlh.io/"> <img src="/img/mlh.png" /> </a>
+        </div>
+        <div class="small-4 columns text-center">
+          <a href="http://www.speedacm.org/"> <img src="/img/acm.png" style="width:50%;" /> </a>
+        </div>
+        <!--<div class="small-4 columns text-center">
           <a href="http://www.library.kent.edu/"> <img src="/img/sponsors/university-library.png" /> </a>
         </div>
         <div class="small-4 columns text-center end">
@@ -307,8 +310,13 @@
   </div>
 </div>
 <a id="mlh-trust-badge" style="position:fixed;top:0;right:50px;max-width:100px;width:10%;min-width: 60px;display:block;z-index:10000" href="https://mlh.io/?utm_campaign=Trust%20Badge" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/s2016.png" alt="MLH Official - Spring 2016" style="width:100%;"></a>
-<footer id="site-footer">
-  <div class="container">
-    <p>POWERED BY</p>
-  </div>
+<footer id="footer">
+  <div>
+   <!-- <h2>Powered By<br></h2>-->
+        <a target="_blank" href="" class="social"><i class="fa fa-facebook-square fa-3x"></i></a>
+        <a target="_blank" href="https://twitter.com/DerbyHacks16" class="social"><i class="fa fa-twitter-square fa-3x"></i></a>
+        <a target="_blank" href="" class="social"><i class="fa fa-instagram fa-3x"></i></a>
+       <!-- <a target="_blank" href="https://derbyhacks.slack.com/signup" class="social"><i class="fa fa-slack fa-3x"></i></a>-->
+    </div>
 </footer>
+
